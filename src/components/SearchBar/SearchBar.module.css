@@ -1,0 +1,33 @@
+.container {
+  width: 50%;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  max-width: 500px;
+  height: 30px;
+  margin-left: 200px;
+  background-color: #d9d9d96e;
+  border: none;
+  border-radius: 30px;
+  padding: 18px 18px 18px 35px;
+  color: white;
+  position: relative;
+}
+
+.icon {
+  width: 27px;
+  position: absolute;
+  margin-left: 205px;
+  margin-top: 5px;
+}
+
+.input::placeholder {
+  color: rgb(194, 194, 194);
+}
+
+.input:focus {
+  outline-width: 0px;
+  border: solid 1px white;
+}
